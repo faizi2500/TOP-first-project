@@ -1,0 +1,85 @@
+body {
+    /* background-color: orange; */
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    font-size: 20px;
+}
+
+.body-wrapper {
+    background-color: #1f2937;
+}
+
+.section-one {
+    width: 85%;
+    margin-inline: 7.5%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}   
+
+.image-container img {
+    width: 110px;
+}
+
+.navigation-grid {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigation-grid > a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-grid > a:hover {
+    color: blue;
+}
+
+.banner-content {
+    width: 100%;
+    display: flex;
+    flex-basis: 0;
+    padding-block: 5%;
+}
+
+.banner-content-setion-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    /* margin-right: 5%;
+    padding-left: 2%; */
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.content-for-banner {
+    width: 85%;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.banner-image {
+    width: 600px;
+    height: 50vh;
+}
+
+.CTA-BANNER {
+    width: 20%;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 600;
+    border: #f9faf8;
+    border-radius: 12px;
+    padding-block: 5px;
+}
